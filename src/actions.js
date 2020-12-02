@@ -26,17 +26,3 @@ export function applyDiscount(discount) {
     discount
   }
 }
-
-export function increment(product) {
-  return {
-    type: INCREASE_QTY,
-    product
-  }
-}
-
-export function decrement(product) {
-  return {
-    type: DECREASE_QTY,
-    product
-  }
-}
