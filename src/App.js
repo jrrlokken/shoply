@@ -4,13 +4,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <Navbar />
       <div>
         <h1>Welcome to Shoply</h1>
         <Routes />
       </div>
-    </div>
+    </main>
   );
 }
 
