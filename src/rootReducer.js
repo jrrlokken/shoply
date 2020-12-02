@@ -1,4 +1,5 @@
 import { ADD_TO_CART, REMOVE_FROM_CART, APPLY_DISCOUNT } from './actionTypes';
+import { calculateCartTotal } from './helpers';
 import data from './data.json';
 
 const discounts = {
