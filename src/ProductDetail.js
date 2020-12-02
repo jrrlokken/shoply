@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import CartIcons from './CartIcons';
+import './ProductDetail.css';
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -12,7 +13,7 @@ const ProductDetail = () => {
     <div className="row justify-content-center">
       <div className="col-md-4">
         <img
-          className="card-img-top"
+          className="ProductDetail-img card-img-top"
           src={image_url}
           alt={name}
         />
