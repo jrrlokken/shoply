@@ -4,6 +4,8 @@ import { Route } from 'react-router-dom';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import rootReducer from './rootReducer';
+import "bootstrap/dist/css/bootstrap.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
